@@ -1,2 +1,14 @@
 <!--pages/home/home.wxml-->
 <text>hello world </text>
+
+<!-- 1.小程序的数据绑定 {{ }} mustache-->
+<view>hello {{ name }}</view>
+<view>师姐的年龄：{{ age }}</view>
+
+<!-- 2.列表展示： wx:for  -->
+<view wx:for="{{ students }}">{{item.name}}--{{item.age}}</view>
+
+<!-- 3.时间监听改变data -->
+<view>当点计数：{{ counter }}</view>
+<button bindtap="plusNumClick">+</button>
+<button bindtap="subNumClick">-</button>
