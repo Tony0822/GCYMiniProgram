@@ -2,5 +2,14 @@
   "pages": [
     "pages/home/home",
     "pages/about/about"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f0f",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+
+  }
 }
